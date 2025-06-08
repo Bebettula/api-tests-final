@@ -6,7 +6,7 @@ pipeline {
     stages {
          stage('Check git') {
             steps {
-                git url: 'https://github.com/BetijaCakure/python-greetings.git', branch: 'main'
+                git url: 'https://github.com/Bebettula/python-greetings.git', branch: 'main'
             }
         }
         stage('build') {
